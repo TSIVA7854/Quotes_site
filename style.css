@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    background: #ADEBB3;
+    color: black;
+}
+
+body {
+    box-sizing: border-box;
+    border: 6px solid beige;
+    width: 1250px;  
+    height: auto;
+    margin: 2rem;
+    padding: 3rem;
+}
+
+nav{
+
+
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+    color: blue;
+
+}
+
+nav h5 {
+    font-size: 30px;
+}
+
+
+
+.all_quotes {
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;  
+}
+.quotes1 {
+    width: 80%;
+    box-sizing: border-box;
+    margin: 0px 0rem 0px 40px;
+    height: auto;
+    font-size :18px;
+    border-radius: 8px;
+    font-family: fantasy;
+    font-style: oblique;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.quotes2 {
+    width: 80%;
+    margin: 0px 15rem 0px 0px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    height: auto;
+    font-size :22px;
+    font-family: fantasy;
+    font-style: oblique;
+    padding: 10px;
+    border: 2px solid black;
+}
+
